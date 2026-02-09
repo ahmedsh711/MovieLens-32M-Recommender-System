@@ -1,9 +1,8 @@
-numpy
-pandas
-scipy
-scikit-learn
-faiss-cpu
-joblib
-pyarrow
-fastparquet
 streamlit
+pandas
+numpy
+scikit-learn
+scipy
+joblib
+faiss-cpu
+pathlib

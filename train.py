@@ -32,7 +32,7 @@ def main():
     }
 
     save_path = MODEL_DIR / "recommender_artifacts.pkl"
-    joblib.dump(artifacts, save_path)
+    joblib.dump(artifacts, save_path, compress=3)
     print("Training Complete!")
 
 
